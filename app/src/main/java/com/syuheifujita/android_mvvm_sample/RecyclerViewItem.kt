@@ -8,7 +8,7 @@ class RecyclerViewItem(val text: String): BindableItem<ItemRecyclerviewBinding>(
 
     override fun bind(viewBinding: ItemRecyclerviewBinding, position: Int) {
         //viewmodelだとここが違う
-//        viewBinding.text = text
-        viewBinding.textView.setText(text)
+        viewBinding.text = text
+//        viewBinding.textView.setText(text)
     }
 }
