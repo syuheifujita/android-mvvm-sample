@@ -13,14 +13,13 @@
         android:padding="32dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
 
         <TextView
             android:id="@+id/textView"
-            android:text=""
+            android:text="@{text}"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="くだもの"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 </layout>
